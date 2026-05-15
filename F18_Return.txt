@@ -1,0 +1,3 @@
+launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.user.hidutil.plist
+rm ~/Library/LaunchAgents/com.user.hidutil.plist
+hidutil property --set '{"UserKeyMapping":[]}'
